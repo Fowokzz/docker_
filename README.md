@@ -12,11 +12,17 @@ I completed this project with the follwoing steps:
 
 4. In this current repository, run docker-compose up -d to build images and create the containers.
 
-To confirm that the endpoints were working fine , run docker exec -it php-container-id sh (replace "php-container-id" with the name of your php container id) and typed in the following commands in the container
+To confirm that the endpoints were working fine , run docker exec -it php-container-id sh (replace "php-container-id" with the name of your php container id) and typed in the following commands in the container:
 
-php artisan key:generate
-php artisan migrate
-php artisan config:cache
-php artisan migrate:fresh
+
+* php artisan key:generate
+
+* php artisan migrate
+
+* php artisan config:cache
+
+* php artisan migrate:fresh
+
+
 
 Deploy the container on a digital ocean droplet and assigned IP Address: 178.62.34.46
